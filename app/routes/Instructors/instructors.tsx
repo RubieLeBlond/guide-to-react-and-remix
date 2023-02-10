@@ -1,7 +1,8 @@
-interface MembershipCardProps {
-  level: string;
+interface InstructorCardProps {
+  Instructor: string;
   description: string;
   price: string;
+  Name: string;
 }
 
 function MembershipCard({ level, description, price }: MembershipCardProps) {
