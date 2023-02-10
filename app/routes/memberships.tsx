@@ -1,3 +1,8 @@
+interface MembershipCardProps {
+  level: string
+}
+function MembershipCard(( level) MembershipCardPrep)
+
 export default function Memberships() {
   return (
     <div className="min-h-screen bg-amber-200 p-4">
